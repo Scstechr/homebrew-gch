@@ -6,10 +6,10 @@ class Gch < Formula
   sha256 "4580ca9b2cfaef6281771a25e994c43c875df23db7c58c3743e8e9aeceaa63e2"
 
   def install
-		bin.install 'gch'
-		bin.install 'gdiff'
-		system 'export','LC_ALL=en_US.utf-8'
-		system 'export','LANG=en_US.utf-8'
+		bin.install "gch"
+		bin.install "gdiff"
+		system "export", "LC_ALL=en_US.utf-8"
+		system "export", "LANG=en_US.utf-8"
   end
 
 end
