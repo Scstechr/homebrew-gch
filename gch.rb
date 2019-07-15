@@ -8,8 +8,8 @@ class Gch < Formula
   def install
 		bin.install "gch"
 		bin.install "gdiff"
-		system "export", "LC_ALL=en_US.utf-8"
-		system "export", "LANG=en_US.utf-8"
+		system "export LC_ALL=en_US.utf-8"
+		system "export LANG=en_US.utf-8"
   end
 
 end
