@@ -6,8 +6,8 @@ class Gch < Formula
   sha256 "55dedce40934ba7930f9ac7666c82bdb1c350dce6a62850f25fcd78df90dae2e"
 
   def install
-		bin.install "gch/gch"
-		bin.install "gdiff/gdiff"
+		bin.install "gch/*"
+		bin.install "gdiff/*"
   end
 
 end
