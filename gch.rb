@@ -7,8 +7,6 @@ class Gch < Formula
 
 
   def install
-                system "cwd"
-                system "ls"
 		bin.install "gch"
 		bin.install "gdiff"
   end
