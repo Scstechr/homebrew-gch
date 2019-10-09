@@ -2,8 +2,8 @@
 class Gch < Formula
   desc "Git Commit Handler: A tool to handle git related commands easier."
 	homepage "https://github.com/Scstechr/gch"
-  url "https://github.com/Scstechr/gch/releases/download/v1.48/gch-v1.48.tar.gz"
-  sha256 "49cc982bf242e4c80236c85759f20622ba030132f1ccd22ecf402fb8a20efbb0"
+  url "https://github.com/Scstechr/gch/releases/download/v1.49/gch-v1.49.tar.gz"
+  sha256 "6e03235e8ddd8aab0ceb828be7cd2320039bae539e100cef4fd06ab07a8d18f9"
 
   def install
 		bin.install "gch"
